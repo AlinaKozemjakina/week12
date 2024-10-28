@@ -13,8 +13,6 @@ router.get('/', async (req, res) => {
 
         const ingredientsResult = await db.query(ingredientsQuery, [selectedRecipe.id]);  
         const ingredients = ingredientsResult.rows.map( element => element.ingredientname);
-        console.log(ingredients);
-        
         const randomRecipe = {
             recipe: selectedRecipe,
             ingredients: ingredients

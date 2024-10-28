@@ -4,6 +4,31 @@ VALUES (1, 3);
 INSERT INTO ingredientinrecipe (recipeid, ingredientid)
 VALUES (1, 4);
 
+
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 1);
+
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 11);
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 13);
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 14);
+
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 16);
+
+INSERT INTO ingredientinrecipe (recipeid, ingredientid)
+VALUES (3, 15);
+
+
+
+
 INSERT INTO ingredientinrecipe (recipeid, ingredientid)
 SELECT a.id, b.id
 FROM recipe a
